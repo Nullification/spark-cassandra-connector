@@ -12,10 +12,11 @@ final class TupleValue private (val columnValues: IndexedSeq[AnyRef])
 
 object TupleValue {
 
-  val TupleValueTypeTag = typeTag[TupleValue]
+  val TypeTag = typeTag[TupleValue]
+  val Symbol = typeOf[TupleValue].asInstanceOf[TypeRef].sym
 
   implicit object UDTValueConverter extends NullableTypeConverter[TupleValue] {
-    def targetTypeTag = TupleValueTypeTag
+    def targetTypeTag = TypeTag
 
     def convertPF = {
       case x: TupleValue => x
