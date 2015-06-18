@@ -1,5 +1,6 @@
 1.2.3 (unreleased)
  * Support for connection compressions configuration (SPARKC-124)
+ * Fix a bug to support upper case characters in UDT (SPARKC-201)
 
 1.2.2
  * Updated Spark version to 1.2.2, Scala to 2.10.5 / 2.11.6
