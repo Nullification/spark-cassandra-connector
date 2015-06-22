@@ -1,3 +1,8 @@
+# Package of interest:
+```
+com.datastax.spark.connector.rdd.partitioner
+```
+
 # Spark Cassandra Connector [![Build Status](https://travis-ci.org/datastax/spark-cassandra-connector.svg)](http://travis-ci.org/datastax/spark-cassandra-connector)
 
 ## Important notice : Do NOT use GitHub issue tracker!
