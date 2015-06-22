@@ -1,6 +1,13 @@
-# Package of interest:
+# Package of interest for data locality:
 ```
 com.datastax.spark.connector.rdd.partitioner
+//Classes`
+CassandraRDDPartition.scala
+NodeAddresses.scala
+
+com.datastax.spark.connector.rdd
+//Classes
+CassandraTableScanRDD.scala
 ```
 
 # Spark Cassandra Connector [![Build Status](https://travis-ci.org/datastax/spark-cassandra-connector.svg)](http://travis-ci.org/datastax/spark-cassandra-connector)
